@@ -60,7 +60,7 @@ for json_file_ in files:
                 pass
             else:
                 xml.write('\t<object>\n')
-                xml.write('\t\t<name>'+"class_name"+'</name>\n') 
+                xml.write('\t\t<name>'+str(label)+'</name>\n') 
                 xml.write('\t\t<pose>Unspecified</pose>\n')
                 xml.write('\t\t<truncated>1</truncated>\n')
                 xml.write('\t\t<difficult>0</difficult>\n')
